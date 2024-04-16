@@ -1,4 +1,10 @@
-# Requirements
+# Description
+
+- This project is a continuation of Project 1. In this project, we will develop additional features in the database system to facilitate more robust and efficient application development and to support security, privacy, audit trail and other regulatory requirements of an electronic medical record system.
+
+- More specifically, in this project, you are to enhance your database design by developing additional tables, columns, stored procedures, triggers, indexes, views and other database functions that are needed to enable the following new requirements.
+
+## Requirements
 
 - [] Create an application programming interface (API) using stored procedures that allows an EMR system developer to work with the database without having to write SQL statements.
 
@@ -14,3 +20,14 @@
 
 - [] Add indexes and views so that frequently used queries and changes to the database
 are most efficient.
+
+## Deliverables
+
+- [] Presentation (5~10 min video recording) explaining/demonstrating your system features
+- [] Requirements specification (Word doc)
+- [] UML Data model (be hand drawn)
+- [] ER diagram (Workbench)
+- [] Database creation script (with test data)
+- [] SQL scripts to support EMR system functions (including stored procedures, triggers, views, and indexes)
+- [] All materials should be organized into one zip folder (codes should be in SQL script files, not in word/text forms)
+- [] If you have updated your database from Project 1, please make a note and specify the changes in the specification AND presentation, and include your new SQL scripts, UML data model, and ER diagram
