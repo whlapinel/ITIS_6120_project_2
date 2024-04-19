@@ -11,17 +11,19 @@
 - new table: audit table
 - created 5 stored procedures and 1 trigger (add every change and query to audit_table)
 - created 1 index
+- created 2 users with different privileges
 - tested all scripts (results SAT)
 
-#### Plan 
+#### Plan for remaining tasks
 
-| Task                | Description                                                                                                                                                  | responsible individuals | deadlines |
-|---------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------|-----------| 
-| create views        | ?                                                                                                                                                            | ?                       | ?         |
-| more triggers       | "you can pick a few tables to demonstrate this. I would recommend choosing a frequently updated table and providing a brief explanation for your selection." | ?                       | ?         |
-| API code            | add files with code for functions in any language that call stored procedures                                                                                | ?                       | ?         |
-| ER and UML diagrams | (currently only 1 additional diagram (audit table))                                                                                                          | ?                       | ?         |
-| Report              | Similar to previous report                                                                                                                                   | ?                       | ?         |
-| Presentation        | Similar to previous                                                                                                                                          | ?                       | ?         |
+| Task                 | Description                                                                                                                                                  | responsible individuals | deadlines |
+|----------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------|-----------| 
+| more views & indexes | add indexes and views so that frequently used queries and changes to the database are most efficient.                                                        | Will / Matt             | 4/26      |
+| more triggers        | "you can pick a few tables to demonstrate this. I would recommend choosing a frequently updated table and providing a brief explanation for your selection." | Will                    | 4/26      |
+| API code             | add files with code for functions in any language that call stored procedures                                                                                | Matt                    | 4/26      |
+| ER and UML diagrams  | (currently only 1 additional diagram (audit table))                                                                                                          | Stephanie               | 4/26      |
+| Report               | Similar to previous report                                                                                                                                   | Kelsey                  | 4/28      |
+| Presentation         | Similar to previous presentation                                                                                                                             | Will                    | 5/3       |
+
 
 ### Notes
