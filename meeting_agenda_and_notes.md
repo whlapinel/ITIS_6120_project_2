@@ -15,13 +15,13 @@
 
 #### Plan 
 
-| Task | Description | responsible individuals |  deadlines |
----
-| create views | ? | ? |
-| more triggers | "you can pick a few tables to demonstrate this. I would recommend choosing a frequently updated table and providing a brief explanation for your selection." | ? | ? |
-| API code | add files with code for functions in any language that call stored procedures | ? | ? |
-| ER and UML diagrams | (currently only 1 additional diagram (audit table)) | ? | ? |
-| Report | Similar to previous report | ? | ? |
-| Presentation | Similar to previous | ? | ? |
+| Task                | Description                                                                                                                                                  | responsible individuals | deadlines |
+|---------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------|-----------| 
+| create views        | ?                                                                                                                                                            | ?                       | ?         |
+| more triggers       | "you can pick a few tables to demonstrate this. I would recommend choosing a frequently updated table and providing a brief explanation for your selection." | ?                       | ?         |
+| API code            | add files with code for functions in any language that call stored procedures                                                                                | ?                       | ?         |
+| ER and UML diagrams | (currently only 1 additional diagram (audit table))                                                                                                          | ?                       | ?         |
+| Report              | Similar to previous report                                                                                                                                   | ?                       | ?         |
+| Presentation        | Similar to previous                                                                                                                                          | ?                       | ?         |
 
 ### Notes
