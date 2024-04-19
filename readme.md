@@ -35,7 +35,7 @@ are most efficient.
 
 ### Notes 
 
-- (Will) run scripts in this order: 
+- (Will) in order to create and test you should run scripts in this order: 
 - - create_tables.sql
 - - create_indexes.sql
 - - create_triggers.sql
@@ -43,3 +43,5 @@ are most efficient.
 - - create_views.sql
 - - create_stored_procedures.sql
 - - create_dummy_data.sql
+- - test_stored_procedures.sql
+- - test_triggers.sql

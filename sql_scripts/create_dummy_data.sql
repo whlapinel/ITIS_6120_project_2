@@ -1,4 +1,4 @@
-USE project_1;
+USE project_2;
 
 -- Insert into patients
 INSERT INTO patients (full_name, date_of_birth, address, gender, insurance_provider, contact_number)
