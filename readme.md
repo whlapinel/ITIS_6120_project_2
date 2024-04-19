@@ -24,7 +24,7 @@ are most efficient.
 ## Deliverables
 
 - [] Presentation (5~10 min video recording) explaining/demonstrating your system features
-- [] Requirements specification (Word doc)
+- [] Requirements specification (Word doc) (Note: for project 1 this was changed to "Report")
 - [] UML Data model (be hand drawn)
 - [] ER diagram (Workbench)
 - [] Database creation script (with test data)

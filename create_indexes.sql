@@ -1,6 +1,6 @@
-use project_1;
+use project_2;
 
 create index idx_appt_date
-on project_1.appointments (appointment_date);
+on project_2.appointments (appointment_date);
 
 

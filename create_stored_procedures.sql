@@ -1,3 +1,5 @@
+use project_2;
+
 CREATE PROCEDURE make_appt (
     IN p_date DATE,
     IN p_patient_id int,

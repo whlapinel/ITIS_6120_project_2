@@ -1,4 +1,4 @@
-use project_1;
+use project_2;
 
 select i.*, p.*
 from invoices i

@@ -1,9 +1,9 @@
-use project_1;
+use project_2;
 
 DROP TRIGGER IF EXISTS audit_table_update_medical_records;
 
 CREATE TRIGGER audit_table_update_medical_records
-    AFTER UPDATE ON project_1.medical_records
+    AFTER UPDATE ON project_2.medical_records
     FOR EACH ROW
     BEGIN
         INSERT INTO audit_table (table_name, item_id, operation_type, old_val, new_val, user, time_date)
