@@ -1,3 +1,4 @@
+
 # Description
 
 - This project is a continuation of Project 1. In this project, we will develop additional features in the database system to facilitate more robust and efficient application development and to support security, privacy, audit trail and other regulatory requirements of an electronic medical record system.
@@ -31,3 +32,14 @@ are most efficient.
 - [] SQL scripts to support EMR system functions (including stored procedures, triggers, views, and indexes)
 - [] All materials should be organized into one zip folder (codes should be in SQL script files, not in word/text forms)
 - [] If you have updated your database from Project 1, please make a note and specify the changes in the specification AND presentation, and include your new SQL scripts, UML data model, and ER diagram
+
+### Notes 
+
+- (Will) run scripts in this order: 
+- - create_tables.sql
+- - create_indexes.sql
+- - create_triggers.sql
+- - create_users.sql
+- - create_views.sql
+- - create_stored_procedures.sql
+- - create_dummy_data.sql
