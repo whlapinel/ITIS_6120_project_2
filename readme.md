@@ -1,26 +1,41 @@
-
 # Description
 
-- This project is a continuation of Project 1. In this project, we will develop additional features in the database system to facilitate more robust and efficient application development and to support security, privacy, audit trail and other regulatory requirements of an electronic medical record system.
+- This project is a continuation of Project 1. In this project, we will develop additional features in the database
+  system to facilitate more robust and efficient application development and to support security, privacy, audit trail
+  and other regulatory requirements of an electronic medical record system.
 
-- More specifically, in this project, you are to enhance your database design by developing additional tables, columns, stored procedures, triggers, indexes, views and other database functions that are needed to enable the following new requirements.
+- More specifically, in this project, you are to enhance your database design by developing additional tables, columns,
+  stored procedures, triggers, indexes, views and other database functions that are needed to enable the following new
+  requirements.
 
 ## Requirements
 
-- [] Create an application programming interface (API) using stored procedures that allows an EMR system developer to work with the database without having to write SQL statements.
+- [] Create an application programming interface (API) using stored procedures that allows an EMR system developer to
+  work with the database without having to write SQL statements.
 
-- - One simple way to use MySQL stored procedures in an API is to create a text-based interface with multiple options for the user to access your database functionalities without being able to access/modify the data or using MySQL workbench.
+-
+    - One simple way to use MySQL stored procedures in an API is to create a text-based interface with multiple options
+      for the user to access your database functionalities without being able to access/modify the data or using MySQL
+      workbench.
 
-- - You can use any programming language to create the text-based interface. It is important to note that you will need to allow these functions according to the user authorization. For example, you may want to allow doctors to update prescriptions, but not patients.
+-
+    - You can use any programming language to create the text-based interface. It is important to note that you will
+      need to allow these functions according to the user authorization. For example, you may want to allow doctors to
+      update prescriptions, but not patients.
 
 - [] Add user authentication so that only authorized users can access the database
 
-- [] Add some form of role-based access control to limit the functions that a user can perform. You should implement at least one use case to demonstrate this capability. For example, you may allow a physician to delete a prescription order, but not a receptionist. In this case, you have two roles, physician and receptionist.
+- [] Add some form of role-based access control to limit the functions that a user can perform. You should implement at
+  least one use case to demonstrate this capability. For example, you may allow a physician to delete a prescription
+  order, but not a receptionist. In this case, you have two roles, physician and receptionist.
 
-- [] Add tables and other features to enable audit trail so that every query or change of every record in the database is monitored and the entire history of the data in the database is captured. Basically, every time a record is accessed (queried, inserted, or changed), the user and time of access is recorded. Every time any field of a record is updated or deleted, the previous value of the record is saved.
+- [] Add tables and other features to enable audit trail so that every query or change of every record in the database
+  is monitored and the entire history of the data in the database is captured. Basically, every time a record is
+  accessed (queried, inserted, or changed), the user and time of access is recorded. Every time any field of a record is
+  updated or deleted, the previous value of the record is saved.
 
 - [] Add indexes and views so that frequently used queries and changes to the database
-are most efficient.
+  are most efficient.
 
 ## Deliverables
 
@@ -31,20 +46,32 @@ are most efficient.
 - [] Database creation script (with test data)
 - [] SQL scripts to support EMR system functions (including stored procedures, triggers, views, and indexes)
 - [] All materials should be organized into one zip folder (codes should be in SQL script files, not in word/text forms)
-- [] If you have updated your database from Project 1, please make a note and specify the changes in the specification AND presentation, and include your new SQL scripts, UML data model, and ER diagram
+- [] If you have updated your database from Project 1, please make a note and specify the changes in the specification
+  AND presentation, and include your new SQL scripts, UML data model, and ER diagram
 
-### Notes 
-
-- In order to create and test you should run scripts in this order: 
-- - create_tables.sql
-- - create_indexes.sql
-- - create_triggers.sql
-- - create_users.sql
-- - create_views.sql -- SKIP AS OF 4/19/24, right now consists of select statements that need to be converted to views.
-- - create_stored_procedures.sql
-- - create_dummy_data.sql
-- - test_stored_procedures.sql
-- - test_triggers.sql
+### Notes
 
 - You will probably need to change the 'create_users' script as follows: change the ip-address to 'localhost' (the
-  reason mine is different is I am using WSL to access a MySQL server on the Windows side) 
+  reason mine is different is I am using WSL to access a MySQL server on the Windows side)
+
+- In order to create and test you should run scripts in this order:
+-
+    - create_tables.sql -- inherited with one change since project_1: add audit_table
+-
+    - create_indexes.sql -- NEW for project_2
+-
+    - create_triggers.sql -- NEW for project_2
+-
+    - create_users.sql -- NEW for project_2
+-
+    - create_views.sql -- SKIP AS OF 4/19/24, right now consists of select statements that need to be converted to
+      views.
+-
+    - create_stored_procedures.sql -- NEW for project_2
+-
+    - create_dummy_data.sql -- inherited
+-
+    - test_stored_procedures.sql -- NEW for project_2
+-
+    - test_triggers.sql -- NEW for project_2
+
