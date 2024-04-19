@@ -35,13 +35,16 @@ are most efficient.
 
 ### Notes 
 
-- (Will) in order to create and test you should run scripts in this order: 
+- In order to create and test you should run scripts in this order: 
 - - create_tables.sql
 - - create_indexes.sql
 - - create_triggers.sql
 - - create_users.sql
-- - create_views.sql
+- - create_views.sql -- SKIP AS OF 4/19/24, right now consists of select statements that need to be converted to views.
 - - create_stored_procedures.sql
 - - create_dummy_data.sql
 - - test_stored_procedures.sql
 - - test_triggers.sql
+
+- You will probably need to change the 'create_users' script as follows: change the ip-address to 'localhost' (the
+  reason mine is different is I am using WSL to access a MySQL server on the Windows side) 
