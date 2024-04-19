@@ -1,3 +1,5 @@
+-- convert these statements to views
+
 use project_2;
 
 select i.*, p.*

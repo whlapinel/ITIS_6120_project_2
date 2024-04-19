@@ -1,3 +1,4 @@
+
 use project_2;
 
 create index idx_appt_date

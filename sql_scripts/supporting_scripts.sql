@@ -98,5 +98,9 @@ WHERE providers.full_name = 'Dr. Alice Henderson';
 
 -- SUPPORTING QUERY 16: List all patients who have visited the clinic twice within the shortest time interval
 
--- FIXME INCOMPLETE / IN PROGRESS
+SELECT medical_records.diagnosis AS 'Diagnosis', COUNT(*) AS 'Count'
+FROM medical_records
+JOIN visits ON medical_records.visit_id = visits.visit_id
+GROUP BY medical_records.diagnosis
+ORDER BY COUNT(*) DESC
 

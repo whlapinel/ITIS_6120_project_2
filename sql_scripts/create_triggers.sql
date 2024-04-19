@@ -1,3 +1,5 @@
+
+
 use project_2;
 
 DROP TRIGGER IF EXISTS audit_table_update_medical_records;

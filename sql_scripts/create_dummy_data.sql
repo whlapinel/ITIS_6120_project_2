@@ -1,3 +1,5 @@
+
+
 USE project_2;
 
 -- Insert into patients

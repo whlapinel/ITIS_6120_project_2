@@ -1,4 +1,5 @@
 
+
 DROP DATABASE IF EXISTS project_2;
 
 -- Create the project_2 database if it doesn't exist
@@ -140,7 +141,7 @@ CREATE TABLE invoices (
     FOREIGN KEY (visit_id) REFERENCES visits(visit_id)
 );
 
-DROP TABLE IF EXISTS audit_table;
+-- create audit table
 
 CREATE TABLE audit_table (
     audit_id int primary key auto_increment,
