@@ -14,4 +14,6 @@ create user 'receptionist'@'%' identified by 'password';
 
 grant select, insert, update, delete on project_2.appointments to 'receptionist'@'%';
 
+grant select on project_2.prescriptions to 'receptionist'@'%';
+
 flush privileges;

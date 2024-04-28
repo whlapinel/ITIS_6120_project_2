@@ -64,12 +64,11 @@
 -
     - create_users.sql -- NEW for project_2
 -
-    - create_views.sql -- SKIP AS OF 4/19/24, right now consists of select statements that need to be converted to
-      views.
+    - create_views.sql -- NEW for project_2
 -
     - create_stored_procedures.sql -- NEW for project_2
 -
-    - create_dummy_data.sql -- inherited
+    - create_dummy_data.sql -- inherited but data modified slightly
 -
     - test_stored_procedures.sql -- NEW for project_2
 -
