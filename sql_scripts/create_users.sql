@@ -2,12 +2,16 @@
 
 use project_2;
 
-create user 'provider'@'172.17.176.1' identified by 'password';
+drop user if exists 'provider'@'%';
 
-grant select, insert, update, delete on project_2.* to 'provider'@'172.17.176.1';
+create user 'provider'@'%' identified by 'password';
 
-create user 'receptionist'@'172.17.176.1' identified by 'password';
+grant select, insert, update, delete on project_2.* to 'provider'@'%';
 
-grant select, insert, update, delete on project_2.appointments to 'receptionist'@'172.17.176.1';
+drop user if exists 'receptionist'@'%';
+
+create user 'receptionist'@'%' identified by 'password';
+
+grant select, insert, update, delete on project_2.appointments to 'receptionist'@'%';
 
 flush privileges;
