@@ -41,12 +41,12 @@
 
 - [] Presentation (5~10 min video recording) explaining/demonstrating your system features
 - [] Requirements specification (Word doc) (Note: for project 1 this was changed to "Report")
-- [] UML Data model (may not be hand drawn)
+- [X] UML Data model (may not be hand drawn)
 - [X] ER diagram (Workbench)
 - [X] Database creation script (with test data)
 - [X] SQL scripts to support EMR system functions (including stored procedures, triggers, views, and indexes)
 - [] All materials should be organized into one zip folder (codes should be in SQL script files, not in word/text forms)
-- [] If you have updated your database from Project 1, please make a note and specify the changes in the specification
+- [X] If you have updated your database from Project 1, please make a note and specify the changes in the specification
   AND presentation, and include your new SQL scripts, UML data model, and ER diagram
 
 ### Notes

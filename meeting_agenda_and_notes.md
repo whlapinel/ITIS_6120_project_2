@@ -10,7 +10,7 @@
 - all scripts from project 1 carried over, changed database name to project_2
 - new table: audit table
 - created 5 stored procedures and 1 trigger (add every change and query to audit_table)
-- created 1 index
+- created 2 indexes
 - created 2 users with different privileges
 - tested all scripts (results SAT)
 
