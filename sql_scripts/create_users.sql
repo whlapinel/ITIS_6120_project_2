@@ -1,7 +1,4 @@
 
-
-use project_2;
-
 drop user if exists 'provider'@'%';
 
 create user 'provider'@'%' identified by 'password';
