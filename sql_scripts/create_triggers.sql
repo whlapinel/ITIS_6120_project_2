@@ -2,6 +2,8 @@
 
 use project_2;
 
+DELIMITER //
+
 DROP TRIGGER IF EXISTS audit_table_update_medical_records;
 
 CREATE TRIGGER audit_table_update_medical_records
@@ -20,4 +22,4 @@ CREATE TRIGGER audit_table_update_medical_records
                     USER(),
                     NOW()
                    );
-    end;
+    END //

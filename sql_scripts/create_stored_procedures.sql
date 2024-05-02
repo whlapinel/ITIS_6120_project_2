@@ -2,6 +2,8 @@
 
 use project_2;
 
+DELIMITER //
+
 CREATE PROCEDURE make_appt (
     IN p_date DATE,
     IN p_patient_id int,
@@ -19,7 +21,7 @@ BEGIN
 
     -- Output the appointment_id
     SELECT appointment_id AS new_appointment_id;
-end;
+END //
 
 CREATE PROCEDURE record_visit (
     IN p_patient_id int,
@@ -36,7 +38,7 @@ BEGIN
     SELECT LAST_INSERT_ID() INTO visit_id;
 
     SELECT visit_id as new_visit_id;
-end;
+END //
 
 # record exam results
 CREATE PROCEDURE record_test_results (
@@ -53,7 +55,7 @@ BEGIN
     SELECT LAST_INSERT_ID() INTO v_test_id;
 
     SELECT v_test_id as new_test_id;
-end;
+END //
 
 # create patient
 CREATE PROCEDURE create_patient (
@@ -72,7 +74,7 @@ BEGIN
     SELECT LAST_INSERT_ID() INTO v_patient_id;
 
     SELECT v_patient_id as new_patient_id;
-end;
+END //
 
 CREATE PROCEDURE create_prescription (
     IN p_record_id int,
@@ -86,4 +88,4 @@ BEGIN
         VALUES (p_record_id, p_medication, p_dosage, p_instructions);
     SELECT LAST_INSERT_ID() INTO v_prescription_id;
     SELECT v_prescription_id as new_prescription_id;
-end;
+END //
