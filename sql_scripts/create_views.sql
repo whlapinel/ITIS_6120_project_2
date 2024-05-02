@@ -15,7 +15,6 @@ where (total_amount - (paid_by_insurance + paid_by_customer)) > 0
 order by visit_date;
 
 -- test view
-select * from outstanding_invoices;
 
 drop view if exists upcoming_appointments;
 
@@ -26,5 +25,4 @@ JOIN facilities f ON a.facility_id = f.facility_id
 WHERE appointment_date >= CURDATE()
 ORDER BY appointment_date;
 
-select * from upcoming_appointments;
 

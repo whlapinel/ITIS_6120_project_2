@@ -54,20 +54,13 @@
 - In order to create and test you should run scripts in this order:
 -
     - create_tables.sql -- inherited with one change since project_1: add audit_table
--
     - create_indexes.sql -- NEW for project_2
--
     - create_triggers.sql -- NEW for project_2
--
     - create_users.sql -- NEW for project_2
--
     - create_views.sql -- NEW for project_2
--
     - create_stored_procedures.sql -- NEW for project_2
--
     - create_dummy_data.sql -- inherited but data modified slightly
--
     - test_stored_procedures.sql -- NEW for project_2
--
     - test_triggers.sql -- NEW for project_2
+    - test_views.sql -- NEW for project_2
 
