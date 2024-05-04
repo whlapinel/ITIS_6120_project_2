@@ -13,13 +13,11 @@
 - [X] Create an application programming interface (API) using stored procedures that allows an EMR system developer to
   work with the database without having to write SQL statements.
 
--
-    - One simple way to use MySQL stored procedures in an API is to create a text-based interface with multiple options
+  - One simple way to use MySQL stored procedures in an API is to create a text-based interface with multiple options
       for the user to access your database functionalities without being able to access/modify the data or using MySQL
       workbench.
 
--
-    - You can use any programming language to create the text-based interface. It is important to note that you will
+  - You can use any programming language to create the text-based interface. It is important to note that you will
       need to allow these functions according to the user authorization. For example, you may want to allow doctors to
       update prescriptions, but not patients.
 
@@ -34,33 +32,29 @@
   accessed (queried, inserted, or changed), the user and time of access is recorded. Every time any field of a record is
   updated or deleted, the previous value of the record is saved.
 
-- [X] Add indexes and views so that frequently used queries and changes to the database
-  are most efficient.
+- [X] Add indexes and views so that frequently used queries and changes to the database are most efficient.
 
 ## Deliverables
 
-- [] Presentation (5~10 min video recording) explaining/demonstrating your system features
-- [] Requirements specification (Word doc) (Note: for project 1 this was changed to "Report")
+- [X] Presentation (5~10 min video recording) explaining/demonstrating your system features
+- [X] Requirements specification (Word doc) (Note: for project 1 this was changed to "Report")
 - [X] UML Data model (may not be hand drawn)
 - [X] ER diagram (Workbench)
 - [X] Database creation script (with test data)
 - [X] SQL scripts to support EMR system functions (including stored procedures, triggers, views, and indexes)
-- [] All materials should be organized into one zip folder (codes should be in SQL script files, not in word/text forms)
-- [X] If you have updated your database from Project 1, please make a note and specify the changes in the specification
-  AND presentation, and include your new SQL scripts, UML data model, and ER diagram
+- [X] All materials should be organized into one zip folder (codes should be in SQL script files, not in word/text forms)
+- [X] If you have updated your database from Project 1, please make a note and specify the changes in the specification AND presentation, and include your new SQL scripts, UML data model, and ER diagram
 
 ### Notes
 
 - In order to create and test you should run scripts in this order:
--
-    - create_tables.sql -- inherited with one change since project_1: add audit_table
-    - create_indexes.sql -- NEW for project_2
-    - create_triggers.sql -- NEW for project_2
-    - create_users.sql -- NEW for project_2
-    - create_views.sql -- NEW for project_2
-    - create_stored_procedures.sql -- NEW for project_2
-    - create_dummy_data.sql -- inherited but data modified slightly
-    - test_stored_procedures.sql -- NEW for project_2
-    - test_triggers.sql -- NEW for project_2
-    - test_views.sql -- NEW for project_2
-
+  - create_tables.sql -- inherited with one change since project_1: add audit_table
+  - create_indexes.sql -- NEW for project_2
+  - create_triggers.sql -- NEW for project_2
+  - create_users.sql -- NEW for project_2
+  - create_views.sql -- NEW for project_2
+  - create_stored_procedures.sql -- NEW for project_2
+  - create_dummy_data.sql -- inherited but data modified slightly
+  - test_stored_procedures.sql -- NEW for project_2
+  - test_triggers.sql -- NEW for project_2
+  - test_views.sql -- NEW for project_2

@@ -152,4 +152,4 @@ CREATE TABLE audit_table (
     new_val text,
     user text,
     time_date datetime
-)
+);

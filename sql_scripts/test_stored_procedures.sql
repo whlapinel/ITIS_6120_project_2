@@ -1,3 +1,4 @@
+use project_2;
 # make_appt
 -- call the procedure
 CALL make_appt(DATE(NOW()), 1, 1, 1, TIME(NOW()));
